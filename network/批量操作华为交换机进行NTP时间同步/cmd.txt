@@ -1,4 +1,4 @@
-clock timezone cst add 8
+clock timezone UTC add 8
 sys
 ntp-service unicast-server 120.25.115.20
 dis clock
