@@ -8,7 +8,7 @@ total 12
 -rwxr-xr-x 1 root root 895 Aug 10 10:11 ss_sw_cmd.py
 
 [root@cobbler-200 script2]# cat cmd.txt
-clock timezone cst add 8
+clock timezone UTC add 8
 sys
 ntp-service unicast-server 120.25.115.20
 dis clock
